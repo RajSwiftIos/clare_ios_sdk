@@ -1,0 +1,34 @@
+PODS:
+  - Clare (0.0.1a):
+    - DGActivityIndicatorView
+    - FCChatHeads
+    - SCSiriWaveformView
+    - Smooch
+  - CMPopTipView (2.3.2)
+  - DGActivityIndicatorView (2.1.1)
+  - FCChatHeads (1.0.3):
+    - CMPopTipView
+    - pop (~> 1.0)
+  - pop (1.0.10)
+  - SCSiriWaveformView (1.1.1)
+  - Smooch (6.5.0)
+
+DEPENDENCIES:
+  - Clare (from `../`)
+
+EXTERNAL SOURCES:
+  Clare:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Clare: 5e669219cc796b7f9a491226686ab0341346c649
+  CMPopTipView: 2d56ef53e8e739c4e63ad97a5a88b97712b46c7b
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  FCChatHeads: f853cbd583dde0d7d8549c41b97f6a2f64b33179
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SCSiriWaveformView: 15b9dd6f94c7536e2032b34a35c6ff74d38c7411
+  Smooch: c22956a9550f184354dd3ed30e38cfeffc9e29c3
+
+PODFILE CHECKSUM: f5f3916856e7e025139116b6759915a55eeab1bf
+
+COCOAPODS: 1.3.1
