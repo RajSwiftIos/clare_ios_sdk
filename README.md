@@ -17,12 +17,12 @@ Clare is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Clare'
+pod 'Clare','~> 0.0.1a'
 ```
 
 ## Author
 
-zekail, zekai@clare.ai
+Clare, hi@clare.ai
 
 ## License
 
