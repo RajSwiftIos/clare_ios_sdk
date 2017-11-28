@@ -10,7 +10,6 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-Require ios 10.0+
 
 ## Installation
 
@@ -23,7 +22,7 @@ pod 'Clare'
 
 ## Author
 
-Clare, hello@clare.ai
+zekail, zekai@clare.ai
 
 ## License
 
