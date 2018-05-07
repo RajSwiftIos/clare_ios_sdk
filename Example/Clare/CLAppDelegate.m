@@ -7,11 +7,13 @@
 //
 
 #import "CLAppDelegate.h"
+#import <Clare/Clare.h>
 
 @implementation CLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[Clare sharedManager]initWithId:@"YOUR APP ID"];
     // Override point for customization after application launch.
     return YES;
 }
