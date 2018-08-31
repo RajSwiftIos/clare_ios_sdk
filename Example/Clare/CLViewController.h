@@ -9,5 +9,7 @@
 @import UIKit;
 
 @interface CLViewController : UIViewController
-
+- (IBAction)setEnglish:(UIButton *)sender;
+- (IBAction)setChinese:(UIButton *)sender;
+    
 @end

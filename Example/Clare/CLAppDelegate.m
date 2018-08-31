@@ -7,12 +7,20 @@
 //
 
 #import "CLAppDelegate.h"
-
+#import <Clare/Clare.h>
 @implementation CLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[Clare sharedManager]initWithId:@"Your AppId"];
+    [[Clare sharedManager]setThemeColor:[UIColor colorWithRed:233.0/255.0 green:4.0/255.0 blue:5.0/255.0 alpha:1.0]];
+    [[Clare sharedManager]setVoiceEnable:false];
+    [[Clare sharedManager]setMicrophoneEnable:false];
+    [[Clare sharedManager] setReplyButtonInOneRow:false];
+    [[Clare sharedManager] setTitle:@"zh_HK" withTitle:@"title-hk"];
+    [[Clare sharedManager] setTitle:@"en_US" withTitle:@"title-us"];
+    [[Clare sharedManager]setLanguages:[[NSMutableArray alloc] initWithObjects:@"zh_HK", nil]];
     return YES;
 }
 
