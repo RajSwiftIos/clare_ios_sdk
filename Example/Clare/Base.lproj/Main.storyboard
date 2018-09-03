@@ -20,6 +20,24 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmf-1q-GZy">
+                                <rect key="frame" x="172" y="200" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EN"/>
+                                <connections>
+                                    <action selector="setEn:" destination="whP-gf-Uak" eventType="touchUpInside" id="gOT-4G-nkH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qd-k6-Hbr">
+                                <rect key="frame" x="172" y="378" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ZH"/>
+                                <connections>
+                                    <action selector="setZH:" destination="whP-gf-Uak" eventType="touchUpInside" id="UoH-HH-P7A"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
