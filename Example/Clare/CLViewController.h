@@ -9,5 +9,7 @@
 @import UIKit;
 
 @interface CLViewController : UIViewController
+- (IBAction)setCN:(UIButton *)sender;
+- (IBAction)setEn:(UIButton *)sender;
 
 @end
