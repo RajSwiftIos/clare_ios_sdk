@@ -7,6 +7,7 @@
 //
 
 #import "CLViewController.h"
+#import <Clare/Clare.h>
 
 @interface CLViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [[Clare sharedManager] show];
+    //[self performSelector:@selector(secondMethod) withObject:nil afterDelay:15.0 ];
+}
+
+-(void)secondMethod{
+    [[Clare sharedManager] hide];
 }
 
 - (void)didReceiveMemoryWarning
