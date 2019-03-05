@@ -15,6 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[Clare sharedManager]initWithId:@"appid"];
+    
+    
     [[Clare sharedManager]setThemeColor:[UIColor colorWithRed:233.0/255.0 green:4.0/255.0 blue:5.0/255.0 alpha:1.0]];
     [[Clare sharedManager]setVoiceEnable:false];
     [[Clare sharedManager]setLanguageDetection:false];
