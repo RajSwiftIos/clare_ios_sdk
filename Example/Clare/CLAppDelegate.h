@@ -2,8 +2,8 @@
 //  CLAppDelegate.h
 //  Clare
 //
-//  Created by RajSwiftIos on 03/05/2019.
-//  Copyright (c) 2019 RajSwiftIos. All rights reserved.
+//  Created by zekail on 01/14/2019.
+//  Copyright (c) 2019 zekail. All rights reserved.
 //
 
 @import UIKit;
