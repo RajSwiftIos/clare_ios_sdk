@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'Clare'
-    s.version          = '0.1.2'
+    s.version          = '0.1.2a'
     s.summary          = 'Clare iOS SDK'
     
     s.description      = <<-DESC
