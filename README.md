@@ -17,7 +17,7 @@ Clare is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Clare','~> 0.0.1a'
+pod 'Clare','~> 0.1.3'
 ```
 
 ## Author
